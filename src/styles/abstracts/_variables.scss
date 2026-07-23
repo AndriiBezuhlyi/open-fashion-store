@@ -1,3 +1,27 @@
+$title-active: var(--title-active);
+$body: var(--body);
+$label: var(--label);
+$placeholder: var(--placeholder);
+$border: var(--border);
+$line: var(--line);
+$input-bg: var(--input-bg);
+$background: var(--background);
+$off-white: var(--off-white);
+$secondary: var(--secondary);
+$primary: var(--primary);
+
 :root {
 	--font-main: 'Tenor Sans', Arial, sans-serif;
+
+	--title-active: #000;
+	--body: #333;
+	--label: #555;
+	--placehoder: #888;
+	--border: #dedede;
+	--line: #e0cfba;
+	--input-bg: #f9f9f9;
+	--background: #f8f0e7;
+	--off-white: #fcfcfc;
+	--secondary: #dd8560;
+	--primary: #a8715a;
 }
