@@ -1,2 +1,7 @@
+@use './abstracts/variables' as *;
+@use './abstracts/mixins' as *;
+
+@use './base/reset';
 @use './base/fonts';
+@use './base/container';
 @use './base/global';
