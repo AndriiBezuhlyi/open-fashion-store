@@ -1,0 +1,47 @@
+@use '../../../styles/abstracts/variables' as *;
+
+.footer {
+	color: $body;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		padding: 27px 0 22px 0;
+	}
+	&__social {
+		display: flex;
+		gap: 50px;
+	}
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 5px;
+
+		margin-top: 15px;
+	}
+	&__nav {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 52px;
+
+		margin-top: 30px;
+	}
+	&__decorLine {
+		margin-top: 24px;
+	}
+	&__copyright {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		padding: 15px 60px;
+
+		color: $label;
+		background-color: $background;
+	}
+}
