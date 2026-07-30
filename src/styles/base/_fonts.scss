@@ -1,6 +1,18 @@
 @font-face {
 	font-family: 'Tenor Sans';
-	src: url('../../assets/fonts/TenorSans-Regular.ttf') format('truetype');
+	src: url('../../assets/fonts/TenorSans.woff2') format('woff2');
 	font-style: normal;
 	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bodoni Moda';
+	src: url('../../assets/fonts/BodoniModa-Regular.woff2') format('woff2');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bodoni Moda';
+	src: url('../../assets/fonts/BodoniModa-Italic.woff2') format('woff2');
+	font-style: italic;
 }

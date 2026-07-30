@@ -11,9 +11,11 @@ $secondary: var(--secondary);
 $primary: var(--primary);
 
 $font-main: var(--font-main);
+$font-title: var(--font-title);
 
 :root {
 	--font-main: 'Tenor Sans', Arial, sans-serif;
+	--font-title: 'Bodoni Moda', Arial, sans-serif;
 
 	--title-active: #000;
 	--body: #333;

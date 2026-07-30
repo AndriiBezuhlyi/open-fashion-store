@@ -1,0 +1,25 @@
+@use '../../../styles/abstracts/variables' as *;
+
+.swiper-pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+
+	margin-bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+	width: 8px;
+	height: 8px;
+	transform: rotate(-315deg);
+
+	border: solid 1px $off-white;
+	border-radius: 0%;
+	background-color: transparent;
+	opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: $off-white;
+}

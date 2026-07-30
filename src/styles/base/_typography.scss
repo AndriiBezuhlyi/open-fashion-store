@@ -3,6 +3,16 @@
 // ===========================
 // Headings
 // ===========================
+.heading-italic {
+	font-family: $font-title;
+	font-size: 38px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 1.12;
+	letter-spacing: 1.21px;
+	text-transform: uppercase;
+	mix-blend-mode: multiply;
+}
 
 .heading-xl {
 	font-family: $font-main;
