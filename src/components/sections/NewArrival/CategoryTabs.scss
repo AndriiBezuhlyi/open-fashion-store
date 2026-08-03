@@ -1,0 +1,25 @@
+@use '../../../styles/abstracts/variables' as *;
+
+.tabs {
+	margin-top: 13px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 22px;
+	&__button {
+		color: $placeholder;
+		&-active {
+			color: $title-active;
+			&::after {
+				content: '';
+				display: block;
+				width: 4px;
+				height: 4px;
+				margin: 2px auto 0;
+				background-color: #dd8560;
+				transform: rotate(45deg);
+			}
+		}
+	}
+}

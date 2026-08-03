@@ -1,9 +1,10 @@
 import ProductCard from '../../common/ProductCard/ProductCard'
+import './ProductGrid.scss'
 
 function ProductGrid({ products }) {
   
   return (
-    <div className="product__grid">
+    <div className="productGrid">
       {
         products.map(product => (
           <ProductCard

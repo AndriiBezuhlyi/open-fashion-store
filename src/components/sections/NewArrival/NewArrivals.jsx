@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { products } from '../../../data/products'
 import CategoryTabs from './CategoryTabs'
+import './NewArrivals.scss'
 import ProductGrid from './ProductGrid'
 
 function NewArrivals() {
@@ -15,15 +16,18 @@ function NewArrivals() {
 
 	return (
 		<section className='newArrivals'>
-			<h2>New Arrival</h2>
+			<div className='container'>
+				<h2 className='newArrivals__title subtitle-lg'>New Arrival</h2>
+				<img className='newArrivals__img' src='/src/assets/icons/decorLine.svg' alt='' />
 
-			<CategoryTabs
-				categories={categories}
-				activeCategory={category}
-				onChange={setCategory}
-			/>
+				<CategoryTabs
+					categories={categories}
+					activeCategory={category}
+					onChange={setCategory}
+				/>
 
-			<ProductGrid products={filteredProducts} />
+				<ProductGrid products={filteredProducts} />
+			</div>
 		</section>
 	)
 }

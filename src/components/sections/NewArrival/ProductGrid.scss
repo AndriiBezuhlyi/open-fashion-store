@@ -1,0 +1,8 @@
+@use '../../../styles/abstracts/variables' as *;
+
+.productGrid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 13px;
+	row-gap: 12px;
+}
