@@ -11,14 +11,18 @@ function NewArrivals() {
 
 	const filteredProducts =
 		category === 'All'
-			? products
+			? products.slice(0, 4)
 			: products.filter(product => product.category === category)
 
 	return (
 		<section className='newArrivals'>
 			<div className='container'>
 				<h2 className='newArrivals__title subtitle-lg'>New Arrival</h2>
-				<img className='newArrivals__img' src='/src/assets/icons/decorLine.svg' alt='' />
+				<img
+					className='decor-line'
+					src='/src/assets/icons/decorLine.svg'
+					alt=''
+				/>
 
 				<CategoryTabs
 					categories={categories}
@@ -27,6 +31,10 @@ function NewArrivals() {
 				/>
 
 				<ProductGrid products={filteredProducts} />
+
+				<button className='newArrivals__explore-more body-md'>
+					Explore More <img src='/src/assets/icons/forwardArrow.svg' alt='' />
+				</button>
 			</div>
 		</section>
 	)
