@@ -3,6 +3,7 @@ import Header from './components/layout/Header/Header'
 import Brands from './components/sections/Brands/Brands'
 import Collections from './components/sections/Collections/Collections'
 import Hero from './components/sections/Hero/Hero'
+import JustForYou from './components/sections/JustForYou/JustForYou'
 import NewArrivals from './components/sections/NewArrival/NewArrivals'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 			<NewArrivals />
 			<Brands />
 			<Collections />
+			<JustForYou />
 			<Footer />
 		</>
 	)
