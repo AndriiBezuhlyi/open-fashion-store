@@ -8,7 +8,7 @@ function Hero() {
 			<HeroSlider />
 
 			<div className='hero__content'>
-				<h1 className='hero__title heading-italic'>
+				<h1 className='hero__title heading-italic text-uppercase'>
 					<span>Luxury</span>
 					<span>Fashion</span>
 					<span>
